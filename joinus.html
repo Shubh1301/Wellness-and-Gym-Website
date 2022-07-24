@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Form.css">
+    <style>
+        body{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    
+            }
+h1{
+    font-size: 4.0rem;
+    font-weight:normal;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(226, 162, 0);
+}
+h2{
+    font-size: 3.0rem;
+    font-weight:normal;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgba(226, 162, 0.856);
+}
+p{
+    display:flex;
+    font-size: 2.0rem;
+    padding: 10px 15px;
+    margin-top: 0px;
+    color: rgb(228, 228, 228);
+    justify-content: center;
+    text-align: justify;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.forms{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701970276.jpg');
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+}
+.container
+{
+    font-size: 2.0rem;
+    color: rgba(255, 255, 255, 0.883);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box
+{
+    font-size: 2.0rem;
+    color: rgba(241, 240, 240, 0.89);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+color: rgb(114, 2, 2);
+font-size: 55px;
+cursor: pointer;
+}
+.btn:hover {
+color:coral;
+       }
+       a:visited{ color: rgb(236, 175, 6);
+        text-decoration: none;
+          }
+          .backtohome a:hover {
+    color: cornsilk;
+    text-decoration: none;
+}
+.backtohome{      
+           display: inline;
+           cursor: pointer;
+           text-align: left;
+           font-size: 2rem;
+           border-width: 5px;
+           border-radius: 30%;
+           text-decoration: none;
+            }
+    
+    </style> 
+    <script src="joinus.js"></script>
+</head>
+<body> 
+    <div class="backtohome"> <a href="homepage.html"> Home </a></div>
+    <div class="joinus">
+        <h2>Join Us as a Trainer!!</h2>
+        <p>
+            If you're interested in Joining our team as a trainer, Kindly
+            fill up this form. We will give you a call.  
+        </p>
+        <div class="forms">
+            <form action="">
+                <div class="container">
+                    <label for="name"> Name</label>
+                    <br>
+                        <input type="text" name="myName" id="name" placeholder="Full Name">
+                    </div>
+                    <br>
+                    <div class="container">
+                    <label for="Contact Number"> Contact Number</label>
+                    <br>
+                        <input type="number" name="myContactNumber" id="contactnumber" placeholder="10 digit number">
+                    </div>
+                    <br>
+                    <div class="container">
+                        <label for="email"> Email ID</label>
+                        <br>
+                            <input type="email" name="myEmail" id="email" placeholder="abc@xxx.com/in">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="box">
+                            Age: <input type="age" name="myAge" placeholder="Current Age">
+                        </div>
+                        <br>
+                        <div class="btn">
+                            <input type="submit" value="Submit Now">
+                            <input type="reset" value="Reset Now">
+                        </div>
+            </form>
+        </div>
+    </div>
+    <h1>Join the Exclusive Training Package Now!!! </h1>
+    <div>
+        <p>
+            This Training Package will help us to remain fit and active during this exhaustive Lockdown Period. We will provide you with the variety of body stretching, Muscle building and Fat Loss exercises.
+            Please fill up your details to avail this special package. 
+        </p>
+    </div>
+    <div class="forms">
+        <form action="backend.php">
+            <div class="container">
+            <label for="name"> Name</label>
+            <br>
+                <input type="text" name="myName" id="name" placeholder="Full Name">
+            </div>
+            <br>
+            <div class="container">
+            <label for="Contact Number"> Contact Number</label>
+            <br>
+                <input type="number" name="myContactNumber" id="contactnumber" placeholder="10 digit number">
+            </div>
+            <br>
+            <br>
+            <div class="container">
+            <label for="Aadhar Number"> Aadhar Card Number</label>
+            <br>
+                <input type="number" name="myAadharNumber" id="aadharnumber" placeholder="12 digit number">
+            </div>
+            <br>
+            <br>
+            <div class="container">
+            <label for="email"> Email ID</label>
+            <br>
+                <input type="email" name="myEmail" id="email" placeholder="abc@xxx.com/in">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+                Age: <input type="age" name="myAge" placeholder="Current Age">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+               Current Weight <input type="weight" name="myWeight" placeholder="in KG">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+            <label for="Speciality"> Are you Special?</label>
+            <br>
+            Yes    <input type="checkbox" name="mySpeciality">
+            No     <input type="checkbox" name="mySpeciality">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+                Gender:
+                <br>
+                Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                Other <input type="radio" name="myGender">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+                Write about yourself: <br><textarea name="myText" cols="90" rows="10" placeholder="Describe about yourself!"></textarea>
+            </div>
+            <br>
+            <br>
+            <div class="box">
+                <label for="Transportation">Mode of Transportation</label>
+                <br>
+                <select name="Transport" id="vehicle">
+                    <option value="car">Car</option>
+                    <option value="bike" selected>Bike</option>
+                    <option value="public_transport"> Public Transport</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div class="btn">
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+        <br>
+</body>
+</html>
